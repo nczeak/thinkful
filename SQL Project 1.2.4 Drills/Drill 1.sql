@@ -1,7 +1,4 @@
 SELECT
-	MAX(maxtemperaturef),
-	zip
+	MAX(maxtemperaturef)
 FROM
-	weather
-GROUP BY
-	zip;
+	weather;

@@ -1,7 +1,6 @@
 SELECT
-	city,
-	COUNT(*) as station_count
+	name,
+	station_id,
+	dockcount
 FROM
-	stations
-GROUP BY
-	city;
+	stations;
